@@ -1,0 +1,16 @@
+{
+  "name": "Algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firstUniqueCharacter.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.5.2"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

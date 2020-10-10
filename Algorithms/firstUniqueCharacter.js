@@ -28,4 +28,6 @@ let firstUniqChar = function(s) {
     return -1;
 }
 
-console.log((firstUniqChar('leetcode') == 0))
+module.exports = firstUniqChar;
+
+// console.log(firstUniqChar('leetcode'))
