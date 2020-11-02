@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1602354069264" clover="3.2.0">
-  <project timestamp="1602354069264" name="All files">
+<coverage generated="1602526365598" clover="3.2.0">
+  <project timestamp="1602526365598" name="All files">
     <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="25" coveredelements="25" complexity="0" loc="18" ncloc="18" packages="1" files="3" classes="3"/>
     <file name="firstUniqueCharacter.js" path="/Users/briankleiner/Desktop/Career/Projects/interview-espresso-problems-js/Algorithms/firstUniqueCharacter.js">
       <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
