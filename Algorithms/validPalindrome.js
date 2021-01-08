@@ -1,5 +1,17 @@
-let validPalindrome = str => {
-    return (str.toLowerCase() === str.toLowerCase().split('').reverse().join(''))
+// Naive
+// let validPalindrome = str => str.toLowerCase() === str.toLowerCase().split('').reverse().join('')
+
+let validPalindrome = s => {
+    s = s.replace(/[^\w]/gi, '').toLowerCase();
+    let left = 0;
+    let right = s.length - 1;
+
+    while (left < right) {
+        if (s[left] !== s[right]) return false;
+        left ++;
+        right --;
+    }
+    return true;
 }
 
 module.exports = validPalindrome

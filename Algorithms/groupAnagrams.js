@@ -17,27 +17,4 @@ groupAnagrams = (strs) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 module.exports = groupAnagrams;
