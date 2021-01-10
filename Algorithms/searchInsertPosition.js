@@ -17,10 +17,10 @@
 
 const searchInsertPosition = (nums, target) => {
     let low = 0;
-    let hi = nums.length-1
+    let hi = nums.length-1;
 
     while (low<=hi){
-        let mid = Math.floor((hi+low) / 2)
+        let mid = Math.floor((hi+low) / 2);
         let midVal = nums[mid];
         if(target === midVal){
             return mid;
